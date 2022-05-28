@@ -118,3 +118,211 @@ a{
 .about .part2 img{
     width: 550px;
 }
+ td {
+    border:2px solid white;
+  }
+table{
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+}
+td:hover{
+    background-color: white;
+    color: black;
+}
+.menu{
+background: black;
+color: white;
+}
+.menu .part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 25px 0;
+}
+.menu .title{
+    text-align: center;
+    font-size: large;
+    padding: 25px 0;
+    color: white;
+    background-color: rgb(36, 34, 34);
+    margin-bottom: 40px;
+
+}
+.menu .part1 .part14 button{
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(158, 132, 45);
+}
+.menu .part1 .part13 p{
+    font-size: 20px;
+}
+.menu .part1 .part13 span del{
+    font-size: 13px;
+}
+.menu{
+    background: black;
+    color: white;
+    }
+
+
+.products{
+    background: black;
+    color: white;
+}
+.products .part1 .part14{
+   color: rgb(223, 168, 19);
+}
+.products .part1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        padding: 25px 0;
+}
+.products .title{
+        text-align: center;
+        font-size: large;
+        padding: 25px 0;
+        color: white;
+        background-color: rgb(36, 34, 34);
+        margin-bottom: 40px;   
+}
+.products .part1 .part15 p{
+    font-size: 18px;
+}
+.products .part1 .part15 span del{
+    font-size: 13px;
+}
+
+.products .part1 .part11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: large;
+}
+
+.customer{
+    background-color: black;
+    color: white;
+}
+.customer .title{
+    text-align: center;
+    font-size: large;
+    padding: 25px 0;
+    color: white;
+    background-color: rgb(36, 34, 34);
+    margin-bottom: 40px;   
+}
+.customer .part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 25px 0; 
+}
+.customer .part1 .part12 p{
+    font-size: 14px;
+}
+.customer .part1 .part13 img{
+    border-radius: 95px 95px;
+}
+.customer .part1 .part15{
+    color: rgb(231, 182, 45);
+}
+
+
+.blogs{
+    background-color: black;
+    color: white;
+}
+.blogs .part1 .part13{
+    color: rgb(201, 201, 30);
+}
+
+.blogs .part1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-left: 15px;
+    gap: 20px;
+    flex-direction: column;
+    padding: 25px 0; 
+}
+.blogs .title{
+    text-align: center;
+    font-size: large;
+    padding: 25px 0;
+    color: white;
+    background-color: rgb(36, 34, 34);
+    margin-bottom: 40px;   
+}
+.blogs .part1 .part15 button{
+    color: white;
+    background-color: rgb(158, 132, 45);
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+}
+.blogs table{
+    margin-left: 85px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: rgb(36, 34, 34);;
+    padding: 50px 50px;
+}
+footer .part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+footer .part1 .part11{
+    display: flex;
+    gap: 20px;
+    font-size: larger;
+}
+footer .part1 .part11 button{
+    width: 50px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 50px 50px;
+    border-color: white;
+    color: white;
+    background-color: rgb(36, 34, 34);;
+}
+footer .part1 .part11 button:hover{
+    color: rgb(36, 34, 34);;
+    background-color: white;
+}
+footer .part1 .part12 button{ 
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(36, 34, 34);;
+    border-color: white;
+}
+footer .part1 .part12 button:hover{
+    color: rgb(36, 34, 34);;
+    background-color: white;
+}
+footer .part1 .part13 p{
+    font-size: 18px;
+    color: white;
+}
+footer .part1 .part13 p span{
+    color: rgb(180, 156, 16);
+}
