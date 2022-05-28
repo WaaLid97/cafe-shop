@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url(/assets/images/home-img.jpeg);
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+.logo h1{
+    color: red;
+    font-weight: bolder;
+}
+.icons{
+ color: white;
+}
+.icons input{
+    height: 30px;
+    border-radius: 5px 5px;
+    margin-right: 10px;
+}
+.nav ul li a{
+    color: white;
+}
+.nav ul li a:hover{
+    border-bottom: 1px solid red;
+}
+
+.home .center{
+    margin-top: 55px;
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    gap: 30px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.home .center h1{
+    color: white;
+    font-size: 60px;
+}
+
+.home .center p{
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    font-weight: 100;
+}
+
+
+
+.home .center .btn button{
+    border-color: rgb(160, 72, 72);
+    background-color: brown;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 180px;
+    text-align: start;
+}
+.home .center .btn:hover{
+    opacity: .9;
+}
+.about .part1{
+    text-align: center;
+    font-size: large;
+    padding: 25px 0;
+    color: white;
+    background-color: rgb(36, 34, 34);
+}
+.about .part2{
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.about .part2 .part3{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    flex-direction: column;
+}
+.about .part2 .part3 .part34 button{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    background-color: brown;
+    color: white;
+}
+.about .part2 img{
+    width: 550px;
+}
