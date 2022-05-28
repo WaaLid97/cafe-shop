@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .home{
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url(./assets/images/home-img.jpeg);
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url(../assets/images/home-img.jpeg);
     background-position: center ;
     background-size: cover;
     height: 100vh;
